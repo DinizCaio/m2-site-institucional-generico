@@ -110,3 +110,7 @@ body {
   line-height: var(--high-text4);
   color: var(--gray-7);
 }
+
+.title1 span {
+  color: var(--brand-1);
+}
