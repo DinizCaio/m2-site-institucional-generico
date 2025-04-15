@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Inter";
+}
+
+:root {
+  --brand-1: #4c6ef5;
+  --brand-2: #364fc7;
+
+  --gray-1: #191c1f;
+  --gray-2: #212529;
+  --gray-3: #343a40;
+  --gray-4: #adb5bd;
+  --gray-5: #ced4da;
+  --gray-6: #edf2ff;
+  --gray-7: #f8f9fa;
+
+  --weight-title1: 600;
+  --weight-title2: 600;
+  --weight-title3: 600;
+  --weight-text1: 400;
+  --weight-text2: 400;
+  --weight-text3: 400;
+  --weight-text4: 600;
+
+  --size-title1: 3.25rem;
+  --size-title2: 2.5rem;
+  --size-title3: 2rem;
+  --size-text1: 1.25rem;
+  --size-text2: 1.125rem;
+  --size-text3: 1rem;
+  --size-text4: 1rem;
+
+  --high-title1: 140%;
+  --high-title2: 160%;
+  --high-title3: 160%;
+  --high-text1: 150%;
+  --high-text2: 150%;
+  --high-text3: 150%;
+  --high-text4: 150%;
+}
+
+.title1 {
+  font-size: var(--size-title1);
+  font-weight: var(--weight-title1);
+  line-height: var(--high-title1);
+  color: var(--gray-6);
+}
+
+.title2 {
+  font-size: var(--size-title2);
+  font-weight: var(--weight-title2);
+  line-height: var(--high-title2);
+  color: var(--gray-6);
+}
+
+.title2-7 {
+  font-size: var(--size-title2);
+  font-weight: var(--weight-title2);
+  line-height: var(--high-title2);
+  color: var(--gray-7);
+}
+
+.title3 {
+  font-size: var(--size-title3);
+  font-weight: var(--weight-title3);
+  line-height: var(--high-title3);
+  color: var(--gray-6);
+}
+
+.text1 {
+  font-size: var(--size-text1);
+  font-weight: var(--weight-text1);
+  line-height: var(--high-text1);
+  color: var(--gray-4);
+}
+
+.text1-5 {
+  font-size: var(--size-text1);
+  font-weight: var(--weight-text1);
+  line-height: var(--high-text1);
+  color: var(--gray-5);
+}
+
+.text1-7 {
+  font-size: var(--size-text1);
+  font-weight: var(--weight-text1);
+  line-height: var(--high-text1);
+  color: var(--gray-7);
+}
+
+.text2 {
+  font-size: var(--size-text2);
+  font-weight: var(--weight-text2);
+  line-height: var(--high-text2);
+  color: var(--gray-5);
+}
+
+.text3 {
+  font-size: var(--size-text3);
+  font-weight: var(--weight-text3);
+  line-height: var(--high-text3);
+  color: var(--gray-4);
+}
+
+.text4 {
+  font-size: var(--size-text4);
+  font-weight: var(--weight-text4);
+  line-height: var(--high-text4);
+  color: var(--gray-7);
+}
