@@ -18,11 +18,14 @@
   box-sizing: border-box;
 
   margin: 0 auto;
-  padding-top: 5.125rem;
+
+  position: relative;
 }
 
 .comments__left {
   width: 38.75rem;
+
+  padding-top: 5.125rem;
 }
 
 .comments__right {
@@ -31,7 +34,12 @@
 
   box-sizing: border-box;
 
+  padding-top: 5.125rem;
   padding-left: 5.4rem;
+
+  position: sticky;
+
+  top: 6.25rem;
 }
 
 .comments__right__container {

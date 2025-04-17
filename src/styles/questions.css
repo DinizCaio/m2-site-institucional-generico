@@ -20,7 +20,8 @@
   box-sizing: border-box;
 
   margin: 0 auto;
-  padding-top: 5.125rem;
+
+  position: relative;
 }
 
 .questions__left {
@@ -45,7 +46,10 @@
 
   box-sizing: border-box;
 
-  padding-right: 5.4375rem;
+  padding: 5.125rem 5.4375rem;
+
+  position: sticky;
+  top: 6.25rem;
 }
 
 .questions__left__h2__text {
@@ -96,6 +100,8 @@
   gap: 3.75rem;
 
   width: 100%;
+
+  padding-top: 5.125rem;
 
   box-sizing: border-box;
 }
