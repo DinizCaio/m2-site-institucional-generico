@@ -1,0 +1,123 @@
+.questions {
+  width: 100%;
+  height: 70.75rem;
+
+  box-sizing: border-box;
+
+  background-color: var(--gray-2);
+}
+
+.questions__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 78.5rem;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  margin: 0 auto;
+  padding-top: 5.125rem;
+}
+
+.questions__left {
+  width: 50%;
+  height: 100%;
+}
+
+.questions__right {
+  width: 50%;
+  height: 100%;
+}
+
+.questions__left__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+  align-items: baseline;
+  gap: 2.0625rem;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding-right: 5.4375rem;
+}
+
+.questions__left__h2__text {
+  font-weight: var(--weight-title2);
+  font-size: var(--size-title2);
+  line-height: var(--height-title2);
+  color: var(--gray-6);
+}
+
+.questions__left__p__text {
+  font-weight: var(--weight-text1);
+  font-size: var(--size-text1);
+  line-height: var(--height-text1);
+  color: var(--gray-4);
+}
+
+.questions__left__button {
+  width: 16.625rem;
+  height: 3.75rem;
+
+  box-sizing: border-box;
+
+  background-color: var(--brand-1);
+
+  border: 0.0625rem solid var(--brand-1);
+
+  cursor: pointer;
+}
+
+.questions__left__button__text {
+  font-weight: var(--weight-text4);
+  font-size: var(--size-text4);
+  line-height: var(--height-text4);
+  color: var(--gray-7);
+}
+
+.questions__left__button:hover {
+  background-color: var(--brand-2);
+  border: 0.0625rem solid var(--brand-2);
+}
+
+.questions__right__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 3.75rem;
+
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+.questions__right__li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.625rem;
+}
+
+.questions__right__h3__text {
+  font-weight: var(--weight-title3);
+  font-size: var(--size-title3);
+  line-height: var(--height-title3);
+  color: var(--gray-6);
+}
+
+.questions__right__p__text {
+  font-weight: var(--weight-text1);
+  font-size: var(--size-text1);
+  line-height: var(--height-text1);
+  color: var(--gray-4);
+}

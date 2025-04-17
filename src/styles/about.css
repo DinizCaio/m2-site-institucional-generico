@@ -1,0 +1,43 @@
+.about {
+  width: 100%;
+  height: 17.75rem;
+
+  box-sizing: border-box;
+
+  background-color: var(--gray-1);
+}
+
+.about__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 78.5rem;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  margin: 0 auto;
+}
+.about__h2 {
+  width: 50%;
+}
+
+.about__h2__text {
+  font-weight: var(--weight-title2);
+  font-size: var(--size-title2);
+  line-height: var(--height-title2);
+  color: var(--gray-6);
+}
+
+.about__p {
+  width: 50%;
+}
+
+.about__p__text {
+  font-weight: var(--weight-text1);
+  font-size: var(--size-text1);
+  line-height: var(--height-text1);
+  color: var(--gray-5);
+}

@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  height: 6.25rem;
+
+  box-sizing: border-box;
+
+  background-color: var(--gray-1);
+
+  border-bottom: 0.125rem solid var(--brand-1);
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 78.5rem;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  margin: 0 auto;
+}
+
+.header__img {
+  width: 12.5rem;
+  height: 1.3rem;
+}
+
+.header__button {
+  width: 16.625rem;
+  height: 3.75rem;
+
+  box-sizing: border-box;
+
+  border: 0.0625rem solid var(--gray-7);
+
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.header__button__text {
+  font-weight: var(--weight-text4);
+  font-size: var(--size-text4);
+  line-height: var(--height-text4);
+  color: var(--gray-7);
+}

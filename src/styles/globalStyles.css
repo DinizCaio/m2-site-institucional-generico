@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
   font-family: "Inter";
@@ -32,11 +32,11 @@ body {
   --size-text3: 1rem;
   --size-text4: 1rem;
 
-  --high-title1: 140%;
-  --high-title2: 160%;
-  --high-title3: 160%;
-  --high-text1: 150%;
-  --high-text2: 150%;
-  --high-text3: 150%;
-  --high-text4: 150%;
+  --height-title1: 140%;
+  --height-title2: 160%;
+  --height-title3: 160%;
+  --height-text1: 150%;
+  --height-text2: 150%;
+  --height-text3: 150%;
+  --height-text4: 150%;
 }

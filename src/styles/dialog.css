@@ -1,0 +1,133 @@
+.dialog {
+  width: 31.5rem;
+  height: 26rem;
+
+  box-sizing: border-box;
+
+  padding: 2.5rem 1.75rem 2.5rem 1.75rem;
+
+  border: 0.125rem solid var(--brand-1);
+
+  background-color: var(--gray-2);
+}
+
+.dialog__container {
+  width: 28rem;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1.9375rem;
+}
+
+.modal__header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.modal__header__h3 {
+  width: 8.875rem;
+  height: 3.1875rem;
+}
+
+.modal__header__h3__text {
+  font-weight: var(--weight-title3);
+  font-size: var(--size-title3);
+  line-height: var(--height-title3);
+
+  color: var(--gray-7);
+}
+
+.modal__header__button {
+  width: 2.375rem;
+  height: 2rem;
+
+  box-sizing: border-box;
+
+  padding: 0 0.75rem 0 0.75rem;
+  border-radius: 0.25rem;
+
+  background-color: var(--gray-3);
+
+  cursor: pointer;
+}
+
+.modal__header__button__text {
+  font-family: "Nunito";
+
+  font-weight: var(--weight-title3);
+  font-size: var(--size-text1);
+  line-height: var(--height-title3);
+
+  color: var(--gray-4);
+}
+
+.modal__p {
+  width: 28rem;
+  height: 4.5rem;
+}
+
+.modal__p__text {
+  font-weight: var(--weight-text3);
+  font-size: var(--size-text3);
+  line-height: var(--height-text3);
+
+  color: var(--gray-4);
+}
+
+.modal__input {
+  width: 28rem;
+  height: 3.625rem;
+
+  box-sizing: border-box;
+
+  padding: 0.875rem 1.25rem 0.875rem 1.25rem;
+  border: 0.0625rem solid var(--gray-1);
+
+  background-color: var(--gray-1);
+}
+
+.modal__input::placeholder {
+  font-weight: var(--weight-text1);
+  font-size: var(--size-text1);
+  line-height: var(--height-title3);
+
+  color: var(--gray-4);
+}
+
+.modal__input:valid {
+  background-color: var(--gray-3);
+  border: 0.0625rem solid var(--gray-3);
+}
+
+.modal__input:focus {
+  background-color: var(--gray-2);
+  border: 0.0625rem solid var(--brand-1);
+}
+
+.modal__button {
+  width: 28rem;
+  height: 3.75rem;
+
+  box-sizing: border-box;
+
+  padding: 0 2rem 0 2rem;
+  border: 0.0625rem solid var(--brand-1);
+
+  background-color: var(--brand-1);
+
+  cursor: pointer;
+}
+
+.modal__button__text {
+  font-weight: var(--weight-text4);
+  font-size: var(--size-text4);
+  line-height: var(--height-text4);
+
+  color: var(--gray-7);
+}

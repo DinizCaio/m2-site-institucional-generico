@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  height: 6.375rem;
+
+  background-color: var(--gray-1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__img {
+  width: 11.1512rem;
+  height: 1.1594rem;
+}
