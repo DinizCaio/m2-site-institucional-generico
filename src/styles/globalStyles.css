@@ -24,13 +24,13 @@ body {
   --weight-text3: 400;
   --weight-text4: 600;
 
-  --size-title1: 3.25rem;
-  --size-title2: 2.5rem;
-  --size-title3: 2rem;
-  --size-text1: 1.25rem;
-  --size-text2: 1.125rem;
-  --size-text3: 1rem;
-  --size-text4: 1rem;
+  --size-title1: clamp(3rem, 2.636rem + 0.568vw, 3.25rem);
+  --size-title2: clamp(2.25rem, 1.886rem + 0.568vw, 2.5rem);
+  --size-title3: clamp(1.75rem, 1.386rem + 0.568vw, 2rem);
+  --size-text1: clamp(1rem, 0.636rem + 0.568vw, 1.25rem);
+  --size-text2: clamp(0.875rem, 0.511rem + 0.568vw, 1.125rem);
+  --size-text3: clamp(0.75rem, 0.386rem + 0.568vw, 1rem);
+  --size-text4: clamp(0.75rem, 0.386rem + 0.568vw, 1rem);
 
   --height-title1: 140%;
   --height-title2: 160%;

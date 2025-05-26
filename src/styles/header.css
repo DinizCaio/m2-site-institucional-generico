@@ -2,16 +2,15 @@
   box-sizing: border-box;
 
   width: 100%;
-  height: 6.25rem;
 
   background-color: var(--gray-1);
 
+  padding: 1.25rem clamp(3rem, -18.386rem + 30.682vw, 14.75rem);
   border-bottom: 0.125rem solid var(--brand-1);
 
   position: fixed;
 
   top: 0;
-  left: 0;
 
   z-index: 1;
 }
@@ -23,12 +22,7 @@
   justify-content: space-between;
   align-items: center;
 
-  width: 78.5rem;
-  height: 100%;
-
   box-sizing: border-box;
-
-  margin: 0 auto;
 }
 
 .header__img {
@@ -37,11 +31,11 @@
 }
 
 .header__button {
-  width: 16.625rem;
   height: 3.75rem;
 
   box-sizing: border-box;
 
+  padding: 1.25rem 2rem;
   border: 0.0625rem solid var(--gray-7);
 
   background-color: transparent;

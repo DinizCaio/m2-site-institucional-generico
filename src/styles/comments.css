@@ -1,8 +1,10 @@
 .comments {
   width: 100%;
-  height: 86.125rem;
 
   box-sizing: border-box;
+
+  padding: clamp(4.5rem, 3.591rem + 1.42vw, 5.125rem)
+    clamp(3rem, -18.386rem + 30.682vw, 14.75rem);
 
   background-color: var(--gray-2);
 }
@@ -10,10 +12,8 @@
 .comments__container {
   display: flex;
   flex-direction: row-reverse;
-  gap: 3.5rem;
-
-  width: 78.5rem;
-  height: 100%;
+  gap: clamp(3rem, -2.636rem + 5.682vw, 3.5rem);
+  justify-content: space-between;
 
   box-sizing: border-box;
 
@@ -23,35 +23,32 @@
 }
 
 .comments__left {
-  width: 38.75rem;
-
-  padding-top: 5.125rem;
+  width: clamp(18rem, -44.25rem + 129.688vw, 38.75rem);
 }
 
 .comments__right {
-  width: 36.25rem;
-  height: 27.6875rem;
+  width: clamp(18rem, -36.75rem + 114.063vw, 36.25rem);
 
   box-sizing: border-box;
 
-  padding-top: 5.125rem;
-  padding-left: 5.4rem;
-
-  position: sticky;
-
-  top: 6.25rem;
+  padding-left: clamp(0rem, -7.855rem + 12.273vw, 5.4rem);
 }
 
 .comments__right__container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 2.1875rem;
 
   box-sizing: border-box;
 
-  padding: 5rem 3.25rem 5rem 3.25rem;
+  padding: 5rem 3.25rem;
 
   background-color: var(--brand-1);
+
+  position: sticky;
+
+  top: 11.5rem;
 }
 
 .comments__right__h2__text {
@@ -77,7 +74,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  gap: 5.125rem;
+  gap: clamp(1rem, -5rem + 9.375vw, 5.125rem);
 
   width: 100%;
 
@@ -97,7 +94,7 @@
 .comments__left__li__container {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 
   width: 12rem;
 
@@ -105,7 +102,7 @@
 }
 
 .comments__left__p2 {
-  width: 25.75rem;
+  width: clamp(20rem, 2.75rem + 35.938vw, 25.75rem);
 }
 
 .comments__left__h3__text {

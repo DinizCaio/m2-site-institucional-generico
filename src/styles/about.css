@@ -1,8 +1,10 @@
 .about {
   width: 100%;
-  height: 17.75rem;
 
   box-sizing: border-box;
+
+  padding: clamp(4.5rem, 3.591rem + 1.42vw, 5.125rem)
+    clamp(3rem, -18.386rem + 30.682vw, 14.75rem);
 
   background-color: var(--gray-1);
 }
@@ -12,16 +14,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  width: 78.5rem;
-  height: 100%;
+  gap: clamp(1rem, -2.636rem + 5.682vw, 3.5rem);
 
   box-sizing: border-box;
 
   margin: 0 auto;
 }
+
 .about__h2 {
-  width: 50%;
+  width: 38.75rem;
+  height: 2.875rem;
 }
 
 .about__h2__text {
@@ -32,7 +34,7 @@
 }
 
 .about__p {
-  width: 50%;
+  width: 36.25rem;
 }
 
 .about__p__text {

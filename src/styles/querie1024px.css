@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+  .header__button {
+    padding: 1.25rem clamp(1rem, -2rem + 6.25vw, 2rem);
+  }
+
+  .banner {
+    padding: clamp(8rem, -7rem + 31.25vw, 13rem) clamp(4rem, -8rem + 25vw, 8rem);
+  }
+
+  .comments__left__li {
+    flex-direction: column;
+  }
+
+  .comments__left__li__container {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    width: 100%;
+  }
+
+  .banner__p {
+    width: clamp(40rem, 15.625rem + 50.781vw, 48.125rem);
+  }
+}
